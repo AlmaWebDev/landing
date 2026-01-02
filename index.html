@@ -13,7 +13,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>AlmaWebDev</title>
-        <meta name="description" content="">
+        <meta name="description" content="Tiendas E-commerce y sitios web">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
         <!--=== Reset Css ===-->
@@ -611,37 +611,54 @@
             <!-- SECTION CONTENT -->
             <div class="container">
                 <div class="row">
-                    <form class="col-md-10 col-md-offset-1" action="contacto.php" method="post">
-                        <input type="hidden" name="token" value="" />
+                    <form class="col-md-10 col-md-offset-1"
+                        action="https://formsubmit.co/almawebdev@gmail.com"
+                        method="POST">
+
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" name="nombre" placeholder="Su nombre" class="form-control" required>
+                                <input type="text"
+                                    name="nombre"
+                                    placeholder="Su nombre"
+                                    class="form-control"
+                                    required>
                             </div>
+
                             <div class="col-md-6">
-                                <input type="text" name="email" placeholder="Su Email" class="form-control" required>
+                                <input type="email"
+                                    name="email"
+                                    placeholder="Su Email"
+                                    class="form-control"
+                                    required>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-md-12">
-                                <textarea name="mensaje" placeholder="Su mensaje" class="form-control" required></textarea>
+                                <textarea name="mensaje"
+                                        placeholder="Su mensaje"
+                                        class="form-control"
+                                        required></textarea>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12">
-								<div class="g-recaptcha" data-sitekey="6LcFJdAjAAAAAGD1fkse7MSE5h-qTkjzPlZqQ8MD"></div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-							&nbsp;
-                            </div>
-                        </div>
+
+                        <!-- Anti-spam invisible -->
+                        <input type="text" name="_honey" style="display:none">
+
+                        <!-- Configuración FormSubmit -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_subject" value="Nuevo mensaje desde la landing">
+                        <input type="hidden" name="_template" value="table">
+                        <!-- Opcional: página de gracias -->
+                        <input type="hidden" name="_next" value="https://almawebdev.github.io/landing/gracias.html">
                         <div class="row">
                             <div class="col-md-12">
                                 <input type="submit" value="Enviar mensaje">
                             </div>
                         </div>
+
                     </form>
+
                 </div>
             </div>
         </section>

@@ -1,0 +1,77 @@
+/*************************************
+	Mobile Menu
+*************************************/
+@media (max-width:768px) {
+	.slicknav_menu {
+	    display:block;
+	}
+	#menu {
+		display: none;
+	}
+}
+
+/*************************************
+	991px Device
+*************************************/
+@media (max-width:991px) {
+	.main-menu ul li {
+	    margin-right: 10px;
+	}
+	.skill article {
+	    margin-bottom: 40px;
+	}
+	.client-meet-box {
+	    margin-bottom: 40px;
+	}
+	.blog-colam {
+	    margin-bottom: 40px;
+	}
+	.services .col-md-4:nth-child(3) .services-box {
+		margin-top: 50px;
+	}
+}
+
+/*************************************
+	767px Device
+*************************************/
+@media (max-width:767px) {
+	.about-img {
+	    margin-bottom: 40px;
+	}
+	.services .col-md-4:nth-child(2) .services-box {
+		margin-top: 50px;
+	}
+}
+
+/*************************************
+	665px Device
+*************************************/
+@media (max-width:665px) {
+	.header-text h1 {
+	    font-size: 30px;
+	}
+	.header-text p {
+	    line-height: 23px;
+	    max-width: 600px;
+	    font-size: 13px;
+	}
+}
+
+/*************************************
+	480px Device
+*************************************/
+@media (max-width:480px) {
+	.section-header h2::before {
+	    left: 48.5%;
+	}
+	.section-header h2 {
+	    font-size: 28px;
+	}
+	.portfolio-menu button {
+	    width: 100%;
+	    margin-bottom: 18px;
+	    background: #eaeaea;
+	    padding: 10px 0;
+	    margin-left: 0;
+	}
+}

@@ -133,7 +133,7 @@ function Header() {
   return (
     <header className="site-header">
       <a className="brand" href="#inicio" aria-label="AlmaWeb, inicio">
-        <span className="brand-mark">A</span>
+        <img className="brand-logo" src="/almaweb-logo.png" alt="" />
         <span>almaweb<span className="brand-dot">.</span></span>
       </a>
       <button
@@ -263,7 +263,7 @@ function App() {
             <h1>Tu negocio<br />merece una web<br /><span>hecha a su medida.</span></h1>
             <p>Diseñamos y desarrollamos tiendas online y sitios web que hacen más fácil el día a día de tu negocio.</p>
             <div className="hero-actions">
-              <a className="button button-lime" href="#proyectos">Explorar proyectos <Arrow diagonal /></a>
+              <a className="button button-primary" href="#proyectos">Explorar proyectos <Arrow diagonal /></a>
               <a className="text-link light-link" href="#contacto">Cuéntanos tu idea <Arrow /></a>
             </div>
             <div className="hero-footnote"><span>Desde 2011</span><span className="footnote-line" /><span>Desarrollo web con propósito</span></div>
@@ -343,7 +343,7 @@ function App() {
             <span className="eyebrow">¿TIENES ALGO EN MENTE?</span>
             <h2>Hablemos de<br /><span>lo que quieres crear.</span></h2>
             <p>Cuéntanos qué necesitas. Te responderemos directamente, sin formularios eternos.</p>
-            <a className="button button-lime" href={`mailto:${email}?subject=${encodeURIComponent('Hablemos de mi proyecto')}`}>
+            <a className="button button-primary" href={`mailto:${email}?subject=${encodeURIComponent('Hablemos de mi proyecto')}`}>
               Escríbenos <Arrow diagonal />
             </a>
           </div>
@@ -356,7 +356,7 @@ function App() {
         </section>
       </main>
       <footer className="site-footer">
-        <a className="brand footer-brand" href="#inicio"><span className="brand-mark">A</span><span>almaweb<span className="brand-dot">.</span></span></a>
+        <a className="brand footer-brand" href="#inicio"><img className="brand-logo" src="/almaweb-logo.png" alt="" /><span>almaweb<span className="brand-dot">.</span></span></a>
         <span>Tiendas online y sitios web a medida.</span>
         <a className="back-top" href="#inicio">Volver arriba ↑</a>
         <small>© {new Date().getFullYear()} AlmaWebDev · Medellín, Colombia</small>

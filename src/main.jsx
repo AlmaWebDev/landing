@@ -72,7 +72,7 @@ const projects = [
     type: 'web',
   },
   {
-    title: 'Flexitours Medellín',
+    title: 'Flexitours',
     category: 'Sitio web a medida',
     technology: 'React · turismo',
     image: 'https://api.flexitoursmedellin.com/api/optimized-images/78902866538dee3aacee7958a7bfc885.png',
@@ -259,7 +259,7 @@ function App() {
       <main>
         <section className="hero" id="inicio">
           <div className="hero-copy">
-            <div className="hero-kicker"><span className="status-dot" /> ESTUDIO DIGITAL · MEDELLÍN, COLOMBIA</div>
+            <div className="hero-kicker"><span className="status-dot" /> ESTUDIO DIGITAL · COLOMBIA</div>
             <h1>Tu negocio<br />merece una web<br /><span>hecha a su medida.</span></h1>
             <p>Diseñamos y desarrollamos tiendas online y sitios web que hacen más fácil el día a día de tu negocio.</p>
             <div className="hero-actions">

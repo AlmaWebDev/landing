@@ -360,7 +360,7 @@ function App() {
         <a className="brand footer-brand" href="#inicio"><img className="brand-logo" src="/almaweb-logo.svg" alt="" /><span>almaweb<span className="brand-dot">.</span></span></a>
         <span>Tiendas online y sitios web a medida.</span>
         <a className="back-top" href="#inicio">Volver arriba ↑</a>
-        <small>© {new Date().getFullYear()} AlmaWebDev · Medellín, Colombia</small>
+        <small>© {new Date().getFullYear()} AlmaWebDev</small>
       </footer>
     </>
   );

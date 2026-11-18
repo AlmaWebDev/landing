@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="AlmaWeb">
+  <circle cx="50" cy="50" r="48" fill="#143D59"/>
+  <g fill="none" stroke="#F4B41A" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
+    <path d="M31 34 14 50l17 16"/>
+    <path d="m69 34 17 16-17 16"/>
+    <path d="M58 27 42 73"/>
+  </g>
+</svg>

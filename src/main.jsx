@@ -133,7 +133,7 @@ function Header() {
   return (
     <header className="site-header">
       <a className="brand" href="#inicio" aria-label="AlmaWeb, inicio">
-        <img className="brand-logo" src="/almaweb-logo.png" alt="" />
+        <img className="brand-logo" src="/almaweb-logo.svg" alt="" />
         <span>almaweb<span className="brand-dot">.</span></span>
       </a>
       <button
@@ -356,7 +356,7 @@ function App() {
         </section>
       </main>
       <footer className="site-footer">
-        <a className="brand footer-brand" href="#inicio"><img className="brand-logo" src="/almaweb-logo.png" alt="" /><span>almaweb<span className="brand-dot">.</span></span></a>
+        <a className="brand footer-brand" href="#inicio"><img className="brand-logo" src="/almaweb-logo.svg" alt="" /><span>almaweb<span className="brand-dot">.</span></span></a>
         <span>Tiendas online y sitios web a medida.</span>
         <a className="back-top" href="#inicio">Volver arriba ↑</a>
         <small>© {new Date().getFullYear()} AlmaWebDev · Medellín, Colombia</small>

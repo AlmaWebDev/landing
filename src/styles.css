@@ -35,7 +35,7 @@ button { color: inherit; }
   z-index: 20;
 }
 .brand { display: inline-flex; gap: 10px; align-items: center; font: 800 21px var(--display); letter-spacing: -1.4px; }
-.brand-logo { display: block; width: 37px; height: auto; object-fit: contain; }
+.brand-logo { display: block; width: 48px; height: 48px; flex: 0 0 auto; object-fit: contain; }
 .brand-dot { color: var(--accent-dark); }
 .main-nav { display: flex; gap: 37px; align-items: center; font-size: 13px; font-weight: 600; }
 .main-nav > a:not(.nav-cta) { color: #4b4e48; transition: color .2s; }
@@ -206,6 +206,7 @@ h1, h2, h3, p { margin-top: 0; }
 .contact-spark { position: absolute; right: 8%; top: 18%; color: var(--accent); font-size: 33px; }
 .site-footer { min-height: 105px; padding: 22px 7.2%; display: grid; grid-template-columns: 1.1fr 1.4fr 1fr; gap: 8px 20px; align-items: center; color: #787b73; font-size: 10px; }
 .footer-brand { color: var(--ink); font-size: 17px; }
+.footer-brand .brand-logo { width: 40px; height: 40px; }
 .back-top { justify-self: end; color: #363932; font-weight: 600; }
 .site-footer small { grid-column: 1/-1; padding-top: 11px; border-top: 1px solid var(--line); font-size: 9px; }
 

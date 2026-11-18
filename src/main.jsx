@@ -72,7 +72,7 @@ const projects = [
     type: 'web',
   },
   {
-    title: 'Flexitours',
+    title: 'Flexitours Medellín',
     category: 'Sitio web a medida',
     technology: 'React · turismo',
     image: 'https://api.flexitoursmedellin.com/api/optimized-images/78902866538dee3aacee7958a7bfc885.png',

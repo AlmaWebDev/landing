@@ -320,19 +320,20 @@ function App() {
 
         <section className="about-section section" id="nosotros">
           <div className="about-image-wrap">
-            <img src={`${raw}/img/team/nuevo_alex.png`} alt="Alexander Cruz, equipo de AlmaWeb" loading="lazy" />
-            <span className="about-image-label">PERSONAS REALES.<br />TRABAJO EN EQUIPO.</span>
-            <span className="about-image-mark">A.</span>
+            <figure className="about-person-photo">
+              <img src={`${raw}/img/team/nuevo_alex.png`} alt="Alexander Cruz, cofundador de AlmaWeb" loading="lazy" />
+              <figcaption><span>DESARROLLO WEB</span><strong>Alexander Cruz</strong></figcaption>
+            </figure>
+            <figure className="about-person-photo">
+              <img src={`${raw}/img/team/mac_2026.png`} alt="Miguel Ángel Cruz, cofundador de AlmaWeb" loading="lazy" />
+              <figcaption><span>DESARROLLO WEB</span><strong>Miguel Ángel Cruz</strong></figcaption>
+            </figure>
           </div>
           <div className="about-copy">
             <span className="eyebrow">QUIÉNES SOMOS</span>
             <h2>Tu equipo web,<br /><span>sin intermediarios.</span></h2>
             <p className="about-lead">Somos Alexander y Miguel Ángel Cruz, dos hermanos desarrolladores que trabajamos contigo de principio a fin.</p>
             <p>Alexander es Ingeniero de Sistemas y empezó su recorrido como analista y programador en 2004. Desde 2011 se dedica al desarrollo web; junto a Miguel Ángel ha creado tiendas online, sitios web y soluciones digitales para negocios.</p>
-            <div className="team-list">
-              <div className="team-person"><img src={`${raw}/img/team/nuevo_alex.png`} alt="" loading="lazy" /><span><b>Alexander Cruz</b><small>Desarrollo web</small></span></div>
-              <div className="team-person"><img src={`${raw}/img/team/mac_2026.png`} alt="" loading="lazy" /><span><b>Miguel Ángel Cruz</b><small>Desarrollo web</small></span></div>
-            </div>
             <a className="text-link dark-link" href="https://www.freelancer.com/u/acruzcontreras" target="_blank" rel="noreferrer">Ver perfil de Freelancer <Arrow diagonal /></a>
           </div>
         </section>

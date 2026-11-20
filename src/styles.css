@@ -309,3 +309,102 @@ h1, h2, h3, p { margin-top: 0; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }
+
+.main-nav > a[aria-current="page"]:not(.nav-cta) { color: var(--accent-dark); }
+.route-main { min-height: 70vh; }
+.page-intro {
+  padding: 82px 7.2% 76px;
+  color: white;
+  background: var(--ink);
+}
+.page-intro .eyebrow { color: var(--accent-bright); }
+.page-intro h1 {
+  max-width: 900px;
+  margin: 23px 0 17px;
+  font: 700 clamp(42px, 5.2vw, 66px)/1.08 var(--display);
+  letter-spacing: -3px;
+}
+.page-intro p {
+  max-width: 660px;
+  margin: 0;
+  color: #c2c5bd;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.route-services .section-inner { padding-top: 75px; }
+.service-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: 1px solid #d6dcde;
+  border-left: 1px solid #d6dcde;
+}
+.service-detail-card {
+  min-height: 250px;
+  padding: 25px 27px;
+  position: relative;
+  border-right: 1px solid #d6dcde;
+  border-bottom: 1px solid #d6dcde;
+  background: #f7f7f2;
+}
+.service-detail-number { color: #80857a; font-size: 10px; }
+.service-detail-card .service-icon { position: absolute; top: 18px; right: 22px; }
+.service-detail-card h2 { margin: 30px 0 10px; font: 700 22px var(--display); letter-spacing: -.7px; }
+.service-detail-card p { max-width: 490px; margin: 0 0 9px; color: #70746c; font-size: 12px; line-height: 1.75; }
+.route-about { padding-top: 82px; }
+.route-cta {
+  padding: 60px 7.2%;
+  color: white;
+  background: var(--ink);
+}
+.route-cta h2 { margin: 0 0 12px; font: 700 clamp(28px, 3.7vw, 42px)/1.15 var(--display); letter-spacing: -1.8px; }
+.route-cta p { margin: 0 0 23px; max-width: 550px; color: #c2c5bd; font-size: 13px; line-height: 1.75; }
+.contact-page-content {
+  display: grid;
+  grid-template-columns: 1.2fr .8fr;
+  gap: 9%;
+  align-items: center;
+  padding: 88px 9.4% 100px;
+}
+.contact-page-copy h2 { margin: 20px 0 17px; font: 700 clamp(36px, 4.5vw, 56px)/1.12 var(--display); letter-spacing: -2.5px; }
+.contact-page-copy h2 span { color: var(--accent-dark); }
+.contact-page-copy p { max-width: 500px; margin: 0 0 23px; color: #70746c; font-size: 13px; line-height: 1.8; }
+.contact-page-details {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  padding: 23px 0 5px 26px;
+  border-left: 1px solid var(--line);
+}
+.contact-page-details > span { color: #868a80; font-size: 9px; font-weight: 700; letter-spacing: 1.3px; }
+.contact-page-details a { display: flex; justify-content: space-between; gap: 12px; color: var(--ink); font-size: 13px; font-weight: 600; }
+.contact-page-details a span { color: var(--accent-dark); }
+.contact-page-details p { margin: 6px 0 0; color: #777b71; font-size: 11px; line-height: 1.7; }
+.not-found-page { min-height: 65vh; padding: 90px 7.2%; }
+.not-found-page h1 { margin: 20px 0 12px; font: 700 clamp(38px, 5vw, 58px)/1.1 var(--display); letter-spacing: -2px; }
+.not-found-page p { margin: 0 0 23px; color: var(--muted); font-size: 13px; }
+
+@media (max-width: 900px) {
+  .page-intro { padding-left: 5%; padding-right: 5%; }
+  .route-cta { padding-left: 5%; padding-right: 5%; }
+  .contact-page-content { padding-left: 7%; padding-right: 7%; }
+}
+
+@media (max-width: 650px) {
+  .page-intro { padding: 60px 22px 54px; }
+  .page-intro h1 { margin-top: 18px; font-size: clamp(38px, 11vw, 54px); letter-spacing: -2px; }
+  .page-intro p { font-size: 12px; line-height: 1.75; }
+  .route-services .section-inner { padding-top: 58px; }
+  .service-detail-grid { grid-template-columns: 1fr; }
+  .service-detail-card { min-height: 220px; padding: 22px; }
+  .service-detail-card h2 { margin-top: 24px; font-size: 19px; }
+  .route-about { padding-top: 60px; }
+  .route-cta { padding: 48px 22px; }
+  .route-cta h2 { font-size: 31px; }
+  .route-cta p { font-size: 11px; }
+  .contact-page-content { grid-template-columns: 1fr; gap: 42px; padding: 62px 23px 72px; }
+  .contact-page-copy h2 { font-size: 40px; letter-spacing: -2px; }
+  .contact-page-copy p { font-size: 11px; }
+  .contact-page-details { padding: 20px 0 0; border-left: 0; border-top: 1px solid var(--line); }
+  .not-found-page { min-height: 65vh; padding: 70px 22px; }
+  .not-found-page h1 { font-size: 41px; }
+}
